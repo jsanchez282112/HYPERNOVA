@@ -1,0 +1,30 @@
+Reporte de Gastos
+---------------------------------------------------------------------
+Conexión a la BD en el web config. carpeta HYL
+<add connectionString="Data Source=localhost;Initial Catalog=HYPERNOVA;User ID=sa;Password=CCMp@g@t0d0$" name="General"/>
+Cambiar el Data Source, User ID, Password de ser necesario
+Nombre del BD: YPERNOVA      estructura SQL Server
+---------------------------------------------------------------------
+1-Colocar la carpeta HYL en el disco C
+2-Abrir el IIS e incluir la caperta en Default web site
+3-Add Aplication
+4-Alias HYL
+5-Physical path: la ruta en c del al carpeta HYL
+6-Crear 
+7-Colocar la pagina HYPERNOVA_Login.aspx como Defaul Document. 
+
+
+------------------------------------------------------
+Ulogin values 
+Usuario: Krish
+Password: kk@321
+
+--------------------------------
+Módulo de Registro de Empleados.
+Módulo de Registro de Cuentas.
+Módulo de Registro de Gastos
+Módulo de Consulta por ID de Empleado.
+Módulo de Reporte de Gastos filtrable por ID botón (buscar)
+Módulo de Reporte de Gastos filtrable por ID, Fecha desde, fecha hasta botón (Generar)
+Modulo Impresión de reporte (Botón Imprimir)
+Validación de de campos para solo numero, solo letras y solo monedas.
